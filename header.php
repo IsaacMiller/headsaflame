@@ -21,9 +21,9 @@ Open your eyes and see. You are free and this is your world to create.
 <!--[if gt IE 8]><!--> <html <?php language_attributes(); ?> class="no-js"><!--<![endif]-->
 
 <head>
-<link type="text/css" rel="stylesheet" id="arrowchat_css" media="all" href="/chat/external.php?type=css" charset="utf-8" />
+<!-- For arrow chat on live site <link type="text/css" rel="stylesheet" id="arrowchat_css" media="all" href="/chat/external.php?type=css" charset="utf-8" />
 <script type="text/javascript" src="/chat/includes/js/jquery.js"></script>
-<script type="text/javascript" src="/chat/includes/js/jquery-ui.js"></script>
+<script type="text/javascript" src="/chat/includes/js/jquery-ui.js"></script> -->
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title><?php wp_title( '|', true, 'right' ); ?></title>
