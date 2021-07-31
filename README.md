@@ -1,4 +1,4 @@
-# headsaflame
+# Headsaflame
 The Headsaflame Social Network
 
 A new social media network built to unlock people's potential and create freedom peace and prosperity in the world.
