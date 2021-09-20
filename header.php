@@ -8,9 +8,9 @@
  */
 ?><!DOCTYPE html>
  <!--
-  _    _                _            __ _                      
- | |  | |              | |          / _| |                     
- | |__| | ___  __ _  __| |___  __ _| |_| | __ _ _ __ ___   ___ 
+  _    _                _            __ _
+ | |  | |              | |          / _| |
+ | |__| | ___  __ _  __| |___  __ _| |_| | __ _ _ __ ___   ___
  |  __  |/ _ \/ _` |/ _` / __|/ _` |  _| |/ _` | '_ ` _ \ / _ \
  | |  | |  __/ (_| | (_| \__ \ (_| | | | | (_| | | | | | |  __/
  |_|  |_|\___|\__,_|\__,_|___/\__,_|_| |_|\__,_|_| |_| |_|\___|
@@ -51,17 +51,17 @@ Open your eyes and see. You are free and this is your world to create.
 	    <div class="title-area">
 	      <a id="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"><span class="hide-for-small"><?php bloginfo( 'name' ); ?></span></a>
 	      <p id="description" class="hide-for-small">
-	      	Conscious Media Network</p>
+	      	The Freedom Tribe Network</p>
 	    </div>
 
 	    <ul class="menu sf-menu" id="dropdownnav">
-	        <li class="explore"> 
+	        <li class="explore">
 	          <a class="hide-for-small" href="#" title="Explore"><span class="explore-icon" data-icon="&#xe008;"></span>Explore</a>
 	          <a class="hide-for-medium-up" href="#" title="Explore"><span class="explore-icon" data-icon="&#xe008;"></span></a>
 				<div class="sf-mega explore row">
 
 <?php if (is_user_logged_in()) {
-?> 
+?>
 <?php } else { ?>
 				<!-- <div class="hiddenarea">
                   <div class="partner-program-signup">
@@ -71,10 +71,10 @@ Open your eyes and see. You are free and this is your world to create.
                   </div>
                 </div> -->
       <?php } ?>
-          
+
 
 		            <div style="border-right: 1px solid #D7D7D7;" class="small-6 columns explore-menu">
-		              <ul class="explore-menu"> 
+		              <ul class="explore-menu">
 		                <li><a href="<?php echo get_site_url(); ?>/start-here/"><span class="explore-menu-icon" data-icon="&#xe008;"></span> Start Here</a></li>
 		                <li><a href="<?php echo get_site_url(); ?>/topics/"><span class="topics-menu-icon" data-icon="&#xe60d;"></span> Topics</a></li>
 		               	<li><a href="<?php echo get_site_url(); ?>/channels/"><span class="channel-menu-icon" data-icon="&#xe608;"></span> Channels</a></li>
@@ -126,7 +126,7 @@ if ( is_user_logged_in() ) { ?>
 		          <li>
 		          	<a href="/wp-admin/">Admin Dashboard</a>
 		          </li>
-		 
+
 		          <?php else : ?>
 					<?php endif; ?>
 		          	<li>
@@ -141,8 +141,8 @@ if ( is_user_logged_in() ) { ?>
 	          <div class="sf-mega you">
 	            <div class="text-center login-text">
 	              <a href="/login/">Login</a><br/><br/>
-	              <?php 
-echo do_shortcode('[userpro_social_connect width="120px"]'); 
+	              <?php
+echo do_shortcode('[userpro_social_connect width="120px"]');
 ?>              <a href="/profile/register">Create an account &rarr;</a><br/>
 
 
@@ -150,7 +150,7 @@ echo do_shortcode('[userpro_social_connect width="120px"]');
 	          </div>
 <?php } ?>
 
-	          
+
 
 	        </li>
 	    </ul>
@@ -159,7 +159,7 @@ echo do_shortcode('[userpro_social_connect width="120px"]');
 
 
 <div id="main-content" class="main-content row">
-	<?php 
+	<?php
 /*
 *  Conditional Statement for Full Screen Background Pages - Uses Advanced Custom Fields Plugin
 */
@@ -186,5 +186,3 @@ if(get_field('full_screen_background') && is_single() )
         </ul>
         <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
     </div>
-
-
